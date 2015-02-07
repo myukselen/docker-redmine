@@ -162,6 +162,15 @@ Access again:
 docker exec -ti mrtest bash
 ```
 
+## Troubleshoot a Docker build failure
+
+You can check the state for a broken build by executing bash inside the last image. For example:
+```bash
+docker run --rm -ti 7970fe5aece7 bash
+```
+
+
+
 # References
 
 * Redmine
